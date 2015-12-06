@@ -10,7 +10,5 @@
 
 ## Notes
 
-- Add redirectTo and/or otherwise routes
-- Fix http as it evolves
 - Replace mocks with http when ready
 - To run in a browser that doesn't support ES6 (like IE11) you need es6 polyfill. Put es6-shim.js  before system.js
