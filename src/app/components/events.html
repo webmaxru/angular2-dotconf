@@ -1,0 +1,11 @@
+<ul class="events">
+  <li (click)="onSelect(event)" *ng-for="#event of events" [class.events__item--selected]="event === selectedEvent" class="events__item">
+
+    <img alt="{{event.name}}" class="events__item-image" src={{event.logoUrl}}/>
+    <h2 class="events__item-name">{{event.name}}</h2>
+    <p class="events__item-description">{{event.description}}</p>
+
+  </li>
+</ul>
+
+<event-edit [event]="selectedEvent"></event-edit>

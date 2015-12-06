@@ -1,12 +1,12 @@
 {
-  "name": "angular2-tour-of-heroes",
+  "name": "angular2-dotconf",
   "version": "0.0.1",
   "scripts": {
     "tsc": "tsc -p src -w",
     "start": "lite-server --open src"
   },
   "dependencies": {
-    "angular2": "2.0.0-alpha.47",
+    "angular2": "2.0.0-alpha.48",
     "systemjs": "0.19.6"
   },
   "devDependencies": {
