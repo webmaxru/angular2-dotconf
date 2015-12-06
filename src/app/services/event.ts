@@ -1,5 +1,4 @@
-import {EVENTS} from '../models/mock-events';
-import {Event} from '../models/event';
+import {EVENTS} from './mock-events';
 
 export class EventService {
   getEvents() {

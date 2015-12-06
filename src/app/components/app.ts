@@ -1,14 +1,16 @@
 import {bootstrap, Component} from 'angular2/angular2';
-import {EventsComponent} from './events';
+import {EventListComponent} from './event-list';
+import {EventEditComponent} from './event-edit';
+import {EventService} from '../services/event';
 
 @Component({
   selector: 'app',
   template: `
-  <h1>{{title}}</h1>
-  <events>Events</events>
+    <h1>{{title}}</h1>
+    <event-list #event-list-ref class="layout-column-left"></event-list>
+    <event-edit [event]="eventListRef.selectedEvent" class="layout-column-right"></event-edit>
   `,
-  styles: ['h1 {font-weight: normal;}'],
-  directives: [EventsComponent]
+  directives: [EventListComponent, EventEditComponent]
 })
 export class AppComponent {
   public title = 'Best ever conferences';

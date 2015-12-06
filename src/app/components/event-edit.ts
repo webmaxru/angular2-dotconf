@@ -1,5 +1,5 @@
 import {Component, Input} from 'angular2/angular2';
-import {Event} from '../models/event';
+import {EventModel} from '../models/event';
 
 @Component({
   selector: 'event-edit',
@@ -7,5 +7,5 @@ import {Event} from '../models/event';
   styleUrls: ['app/components/event-edit.css'],
 })
 export class EventEditComponent {
-  @Input() event: Event;
+  @Input() event: EventModel;
 }

@@ -1,5 +1,4 @@
-export class Event {
-  id: number;
+export class EventModel {
   name: string;
   description: string;
   logoUrl: string;

@@ -1,15 +1,11 @@
 <div *ng-if="event" class="event-edit">
   <h2 class="event-edit__name">{{event.name}}</h2>
   <div class="event-edit__field">
-    <label>Id:</label>
-    {{event.id}}
-  </div>
-  <div class="event-edit__field">
     <label>Name:</label>
     <input [(ng-model)]="event.name" class="event-edit__input"/>
   </div>
   <div class="event-edit__field">
     <label>Description:</label>
-    <input [(ng-model)]="event.name" class="event-edit__input"/>
+    <input [(ng-model)]="event.description" class="event-edit__input"/>
   </div>
 </div>

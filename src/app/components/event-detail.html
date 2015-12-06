@@ -1,0 +1,5 @@
+<div [class.event-detail--selected]="event === selectedEvent" class="event-detail">
+  <img alt="{{event.name}}" class="event-detail__image" src={{event.logoUrl}}/>
+  <h2 class="event-detail__name">{{event.name}}</h2>
+  <p class="event-detail__description">{{event.description}}</p>
+</div>

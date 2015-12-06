@@ -1,0 +1,24 @@
+.event-detail {
+  text-align: center;
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  margin: 0 20px 20px 0;
+}
+.event-detail:hover {
+  background-color: #333;
+}
+.event-detail--selected {
+  background-color: #222;
+  border: 1px solid #444;
+}
+.event-detail__name {
+  font-size: 18px;
+  font-weight: normal;
+}
+.event-detail__image {
+  max-height: 75px;
+  max-width: 100%;
+}
