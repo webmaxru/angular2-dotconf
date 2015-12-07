@@ -9,11 +9,11 @@ h1 {
   font-weight: normal;
   color: #ddd;
 }
-.layout-column-left {
+.layout-col-left {
   float: left;
   width: 70%;
 }
-.layout-column-right {
+.layout-col-right {
   float: left;
   width: 30%;
 }
